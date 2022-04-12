@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+/* Kostumisasi Judul */
+.judul {
+  text-align: center;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  margin: 20px;
+}
+
+.judul h2 {
+  position: relative;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+}
+
+/* Kostumisasi Label */
+li>label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Kostumisasi Label dalam class Option*/
+.option>label {
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+/* Menentukan panjang box */
+#nama,
+#born {
+  width: 100%;
+  padding: 10px;
+  height: 20px;
+}
+
+#agama {
+  width: 100%;
+}
+
+#pesan {
+  width: 100%;
+  height: 200px;
+}
+
+/* Mengkostumisasi tombol submit */
+button {
+  padding: 10px;
+  color: white;
+  background-color: green;
+  border: none;
+}
